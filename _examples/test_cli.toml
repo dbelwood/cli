@@ -1,0 +1,11 @@
+api_version = "1.0"
+content_type = "application/json"
+[environments]
+  [environments.development]
+    api_url = "https://ext.trunkclub.dev"
+    ring_url = "https://ring.trunkclub.dev"
+  [environments.testing]
+    api_url = "https://ext.trunkclub.dev"
+    ring_url = "https://ring.trunkclub.dev"
+  #[environmen^ts.staging]
+  #[environments.production]
